@@ -24,7 +24,8 @@
     </div>
     <p>Oregon is a West Coast state known for its' beatiful parks and nature.</p>
   </header>
-  <img src="" alt="A satellite map of Oregon State">
+  <img src="https://zeducorp.sirv.com/detailed-maps/oregon-map.jpg?scale.option=fill&scale.width=1600&quality=60" alt="A satellite map of Oregon State">
+  <aside><p>A terrain map of Oregon <sup>4</sup></p></aside>
   <section>
     <h2>Comparison of some Cities in Oregon</h2>
     <p>The following table summarises the city pages of this site</p>
@@ -54,14 +55,43 @@
         <td>10,256</td>
       </tr>
     </table>
+    <h2>Questions Form</h2>
+    <p>If you have any questions, use this form to submit them!</p>
+    <form action="post">
+        <label for="fname">First Name:</label>
+        <input type="text" name="" id="fname" placeholder="John"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="" id="lname" placeholder="Doe"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" placeholder="johndoe@gmail.com"><br>
+        <label for="econfirm">Email Confirmation:</label>
+        <input type="email" name="" id="econfirm" placeholder="johndoe@gmail.com"><br>
+        <label for="question">Question:</label>
+        <input type="text" name="" id="Question" placeholder="Your Question Here!"><br>
+        <input type="button" onclick="match()" value="Submit!">
+    </form>
+    <script>
+        function match(){
+            if(document.getElementById("email").value === document.getElementById("econfirm").value){
+                alert("Matched!")
+            }
+            else{
+                alert("Emails do not match!")
+            }
+        }
+    </script>
     <h2> Sources</h2>
-    <ul>
-      <li>https://en.wikipedia.org/wiki/Salem,_Oregon</li>
-      <li>https://en.wikipedia.org/wiki/Portland,_Oregon</li>
-      <li>https://en.wikipedia.org/wiki/Newport,_Oregon</li>
-    </ul>
+    <ol>
+      <li>Wikipedia. Salem, Oregon.https://en.wikipedia.org/wiki/Salem,_Oregon</li>
+      <li>Wikipedia. Portland, Oregon. https://en.wikipedia.org/wiki/Portland,_Oregon</li>
+      <li>Wikipedia. Newport, Oregon. https://en.wikipedia.org/wiki/Newport,_Oregon</li>
+      <li>Zeducorp. Detailed Map of Oregon.</li>
+      <li>Statesman Journal. Downtown Salem: Improving the urban core of Oregon's capitol</li>
+      <li>Zielinski, Alex. Oregon Public Broadcasting. Report on Portland economy shows slow rebound post-pandemic.</li>
+      <li>Bull, Brian. Oregon Public Broadcasting. Newport Raising Money to rebuild its sea lion docks.</li>
+    </ol>
   </section>
-  <aside></aside>
+
 </body>
 
 </html>

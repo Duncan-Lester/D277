@@ -1,7 +1,13 @@
 html {
     font-family: Georgia, serif;
 }
-
+img{
+    height:30%;
+    width: 30%;
+}
+aside{
+    padding-left: 100px;
+}
 .navbar {
     background-color: gray;
     overflow: hidden;
