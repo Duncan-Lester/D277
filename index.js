@@ -13,7 +13,20 @@ app.get('/city1', (req,res) => {
 app.get('/city2', (req,res) => {
     res.render('city2')
 })
-app.get('city3', (req,res) => {
+app.get('/city3', (req,res) => {
+    res.render('city3')
+})
+
+app.get('/views/state.ejs', (req,res) => {
+    res.render('state')
+})
+app.get('/views/city1.ejs', (req,res) => {
+    res.render('city1')
+})
+app.get('/views/city2.ejs', (req,res) => {
+    res.render('city2')
+})
+app.get('/views/city3.ejs', (req,res) => {
     res.render('city3')
 })
 

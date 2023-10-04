@@ -1,0 +1,32 @@
+html {
+    font-family: Georgia, serif;
+}
+
+.navbar {
+    background-color: gray;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: teal;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: aquamarine;
+    color: white;
+}
+
+#best{
+    color: green;
+}
+
+/* abs and rel pos in at least one area of the site */
