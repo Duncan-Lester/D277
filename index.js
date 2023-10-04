@@ -30,6 +30,10 @@ app.get('/views/city3.ejs', (req,res) => {
     res.render('city3')
 })
 
+app.get('/',  (req,res) => {
+    res.render('state')
+})
+
 app.listen(port, function (req,res) {
     console.log('listening on port', port);
 })
