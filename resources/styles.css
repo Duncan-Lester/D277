@@ -2,11 +2,16 @@ html {
     font-family: Georgia, serif;
 }
 img{
+    /* This element is positioned relatively with the % unit */
+    position: relative;
+    left: 10%;
     height:30%;
     width: 30%;
 }
 aside{
-    padding-left: 100px;
+    /* This element is positioned absolutely with the px unit */
+    position: absolute;
+    left: 200px;
 }
 .navbar {
     background-color: gray;
@@ -34,5 +39,3 @@ aside{
 #best{
     color: green;
 }
-
-/* abs and rel pos in at least one area of the site */
